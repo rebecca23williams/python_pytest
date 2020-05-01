@@ -10,3 +10,11 @@ def add(a, b):
 
 x = multiply(4, 20)
 add(x, 10)
+
+
+def takeMyInput(a, b):
+    c = a + b
+    print("Sum of values " + str(c))
+
+
+takeMyInput(200, 100)
